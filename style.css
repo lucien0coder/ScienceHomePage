@@ -4,9 +4,25 @@
 	padding-left: 0;
 	padding-right: 0;
 }
-a{
- 	color: #7a7a7a;
+.hero-body{
+ 	background-color: #2977c5;
 }
 .hero-head{
 	background-color:#fff;
+}
+
+.hero-foot{
+	background-color: #1261c3;
+}
+.tabs a {
+	color: #fff;
+	padding: 6px 49px;
+}
+.tabs.is-boxed li.is-active a {
+	background-color: #32cbde;
+	color: #fff;
+}
+.tabs.is-boxed a:hover{
+    background-color: #32cbde;
+    color: #fff;
 }
