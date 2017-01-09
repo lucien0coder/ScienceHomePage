@@ -78,6 +78,10 @@ p.nav-item{
 	
 }
 
+.btn-quick:hover{
+	color: #ffffff;
+}
+
 .btn-blue{
 	width: 100%;
 	height: 38px;
@@ -88,6 +92,23 @@ p.nav-item{
 	justify-content: flex-start;
 	border: 1px;
 	border-style: solid solid dotted solid;
+	border-radius: 0;
+}
+
+.btn-blue:hover{
+	background-color: #56b6e8;
+	color: #ffffff;
+}
+
+button.btn-login{
+	background-color: #0879c5;
+	color: #ffffff;
+	font-size: 18px;
+	font-family: 'Microsoft YaHei';
+}
+.btn-login:hover{
+	background-color: #56b6e8;
+	color: #ffffff;
 }
 
 .tabs li.is-active a {
@@ -183,7 +204,22 @@ p.control{
 	padding: 0 5px;
 }
 
+a{
+	font-family: 'Microsoft YaHei';
+    font-size: 14px;
+    color: #959595;
+}
+
+a.a-nowrap:hover{
+	color: #ff9e21;
+}
+
+a.a-nowrap:visited{
+	text-decoration: underline;
+}
+
 a.a-nowrap{
+	font-size: 16px;
 	margin: 3px 0;
 	display: block;
 	white-space: nowrap;
@@ -191,6 +227,13 @@ a.a-nowrap{
     overflow: hidden;
     width: 100%;
 }
+
+a.a-blue{
+	font-family: 'Microsoft YaHei';
+    font-size: 16px;
+    color: #56b6e8;
+}
+
 img{
 	border-radius: 50%;
 
@@ -249,5 +292,19 @@ article.text-center{
 
 .footer{
 	padding: 3rem 1.5rem 0 1.5rem;
+<<<<<<< HEAD
 >>>>>>> gaojun/master
+=======
+}
+
+.foot-title{
+	font-size: 18px;
+	font-family: 'Microsoft YaHei';
+	color: #363636;
+}
+.foot-text{
+	font-size: 14px;
+	font-family: 'Microsoft YaHei';
+	color: #959595;
+>>>>>>> source/master
 }
